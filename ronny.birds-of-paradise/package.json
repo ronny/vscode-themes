@@ -1,7 +1,7 @@
 {
-    "name": "birds-of-paradise",
-    "displayName": "Birds of Paradise",
-    "description": "Birds of Paradise theme",
+    "name": "ronny-birds-of-paradise",
+    "displayName": "Birds of Paradise (Ronny)",
+    "description": "Birds of Paradise theme originally by Joe Bergantine, modified by and for Ronny",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.55.0"
@@ -9,10 +9,14 @@
     "categories": [
         "Themes"
     ],
+    "publisher": "ronny",
+    "repository": {
+      "url": "https://github.com/ronny/vscode-themes"
+    },
     "contributes": {
         "themes": [
             {
-                "label": "Birds of Paradise",
+                "label": "Birds of Paradise (Ronny)",
                 "uiTheme": "vs-dark",
                 "path": "./themes/Birds of Paradise-color-theme.json"
             }
